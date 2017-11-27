@@ -15,6 +15,8 @@
 		E0F2A1D71FCC2B40003C735E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F2A1D61FCC2B40003C735E /* main.m */; };
 		E0F2A1E11FCC2B40003C735E /* BXHImageOperateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F2A1E01FCC2B40003C735E /* BXHImageOperateTests.m */; };
 		E0F2A1EC1FCC2B40003C735E /* BXHImageOperateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F2A1EB1FCC2B40003C735E /* BXHImageOperateUITests.m */; };
+		E0F2A1FB1FCC2B66003C735E /* BXHImageOperateScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F2A1FA1FCC2B66003C735E /* BXHImageOperateScrollView.m */; };
+		E0F2A1FD1FCC2C23003C735E /* zoomScaleImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0F2A1FC1FCC2C23003C735E /* zoomScaleImage.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		E0F2A1E71FCC2B40003C735E /* BXHImageOperateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BXHImageOperateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0F2A1EB1FCC2B40003C735E /* BXHImageOperateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BXHImageOperateUITests.m; sourceTree = "<group>"; };
 		E0F2A1ED1FCC2B40003C735E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0F2A1F91FCC2B66003C735E /* BXHImageOperateScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXHImageOperateScrollView.h; sourceTree = "<group>"; };
+		E0F2A1FA1FCC2B66003C735E /* BXHImageOperateScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BXHImageOperateScrollView.m; sourceTree = "<group>"; };
+		E0F2A1FC1FCC2C23003C735E /* zoomScaleImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zoomScaleImage.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,9 @@
 				E0F2A1C81FCC2B40003C735E /* AppDelegate.m */,
 				E0F2A1CA1FCC2B40003C735E /* ViewController.h */,
 				E0F2A1CB1FCC2B40003C735E /* ViewController.m */,
+				E0F2A1F91FCC2B66003C735E /* BXHImageOperateScrollView.h */,
+				E0F2A1FA1FCC2B66003C735E /* BXHImageOperateScrollView.m */,
+				E0F2A1FC1FCC2C23003C735E /* zoomScaleImage.jpg */,
 				E0F2A1CD1FCC2B40003C735E /* Main.storyboard */,
 				E0F2A1D01FCC2B40003C735E /* Assets.xcassets */,
 				E0F2A1D21FCC2B40003C735E /* LaunchScreen.storyboard */,
@@ -240,6 +248,7 @@
 			files = (
 				E0F2A1D41FCC2B40003C735E /* LaunchScreen.storyboard in Resources */,
 				E0F2A1D11FCC2B40003C735E /* Assets.xcassets in Resources */,
+				E0F2A1FD1FCC2C23003C735E /* zoomScaleImage.jpg in Resources */,
 				E0F2A1CF1FCC2B40003C735E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +276,7 @@
 			files = (
 				E0F2A1CC1FCC2B40003C735E /* ViewController.m in Sources */,
 				E0F2A1D71FCC2B40003C735E /* main.m in Sources */,
+				E0F2A1FB1FCC2B66003C735E /* BXHImageOperateScrollView.m in Sources */,
 				E0F2A1C91FCC2B40003C735E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

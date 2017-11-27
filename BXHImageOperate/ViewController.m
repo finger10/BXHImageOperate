@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "BXHImageOperateScrollView.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    BXHImageOperateScrollView *operateSV = [BXHImageOperateScrollView new];
+    operateSV.frame = CGRectMake(0, 0, SCREENW, SCREENH);
+    operateSV.imageView.image = [UIImage imageNamed:@"zoomScaleImage.jpg"];
+    [self.view addSubview:operateSV];
+    
 }
 
 
